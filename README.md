@@ -22,6 +22,12 @@ docker container stop my-nginx
 ```
 docker container start my-nginx
 ```
+
+## Comprobación del servidor Web usando curl:
+```
+curl http://127.0.0.1
+```
+
 ## Sesión interactiva
 ```
 docker run --name docker-nginx-01 -p 80:80 -d nginx
