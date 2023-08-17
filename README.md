@@ -2,7 +2,7 @@
 
 Bootcamp para la creación de un servidor Web NGINX básico
 
-## Descargar una imagen NGINX
+## Descargar una imagen NGINX y ejecutarla
 ```
 docker container run nginx
 ```
